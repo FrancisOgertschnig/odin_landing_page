@@ -150,7 +150,6 @@ figcaption {
 .call_button {
     display: flex;
     align-items: center;
-    justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -163,8 +162,6 @@ figcaption {
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
-    align-items: center;
-    justify-content: center;
 }
 
 .c_button:hover {
