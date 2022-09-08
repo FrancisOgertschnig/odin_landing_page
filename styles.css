@@ -1,0 +1,100 @@
+.header,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+
+.quad_images {
+    display: flex;
+}
+
+.quad_images h2 {
+    display: block;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.q_div {
+    display: block;
+    border: 2px solid black;
+}
+
+.q_images {
+    display: flex;
+    list-style: none;
+}
+
+.q_images li img {
+    width: 200px;
+    height: 150px;
+    flex: 1;
+    gap: 1;
+    justify-content: space-around;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 40px 200px;
+}
+
+.quote_p {
+    font-style: italic;
+}
+
+.quote_name {
+    font-weight: bold;
+    text-align: end;
+}
+
+.call {
+    background-color: #3882F6;
+    padding: 30px 150px;
+    margin: 150px 200px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.call_text {
+    /* border: 2px solid white; */
+    flex: 1;
+    color: white;
+}
+
+.call_action {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.call_p {
+    margin-top: 0;
+}
+
+.call_button {
+    display: flex;
+    /* border: 2px solid white; */
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.c_button {
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: white;
+    padding: 7px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_button:hover {
+    background-color: white;
+    color: #3882F6;
+}
