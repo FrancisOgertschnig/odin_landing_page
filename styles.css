@@ -45,7 +45,8 @@ ul {
 }
 
 .h_main_left {
-    padding-right: 150px;
+    flex: 1;
+    padding-right: 10px;
 }
 
 .h_main_left h1 {
@@ -78,10 +79,16 @@ ul {
     color: #3882F6;
 }
 
-.h_main_image img {
+.h_main_image {
     flex: 1;
-    width: 475px;
-    height: 325px;
+    display: flex;
+    justify-content: center;
+}
+
+.h_main_image img {
+    max-width: 475px;
+    max-height: 325px;
+    flex: 1;
 }
 
 .quad_images {
